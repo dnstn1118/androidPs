@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">androidPs</string>
+    <string name="toolbar_search">Search</string>
+    <string name="toolbar_news">News</string>
+    <string name="toolbar_group">Group</string>
+    <string name="toolbar_myword">MyWord</string>
+    <string name="group_toolbar_title">그룹</string>
+    <string name="search_toolbar_title">단원별 질문 보기</string>
+</resources>

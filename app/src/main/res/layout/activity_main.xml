@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.androidexample.androidps.MainActivity"
+    android:foregroundGravity="bottom|clip_horizontal|center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_container"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera_floating_button"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/bottom_navigation_icon"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>
